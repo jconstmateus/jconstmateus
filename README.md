@@ -37,7 +37,6 @@ An AI-powered study platform combining a flexible academic calendar with intelli
 - Dockerized development environment
 
 ## 📈 GitHub Stats
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jconstmateus&show_icons=true&theme=default)
 
 ---
