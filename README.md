@@ -4,6 +4,7 @@
 
 <div align="center">
   
+
 I enjoy working across the full stack, from designing relational data models to building responsive, user-friendly interfaces. I'm particularly interested in **algorithms** and **artificial intelligence**, and how they can be applied to solve real-world problems.
 
 </div>
