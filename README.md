@@ -36,8 +36,11 @@ An AI-powered study platform combining a flexible academic calendar with intelli
 - React + TypeScript frontend
 - Dockerized development environment
 
-## 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jconstmateus&show_icons=true&theme=default)
+## 📫 Get in Touch
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-UTILIZADOR)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@exemplo.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://seu-site.com)
 
 ---
 
