@@ -10,7 +10,10 @@ I enjoy working across the full stack, from designing relational data models to 
 </div>
 
 
-## 🛠️ Tech Stack
+<div align="center">
+  <img width="1584" height="50" alt="Design sem nome (1)" src="https://github.com/user-attachments/assets/2a144984-ed3d-4185-b3ef-26e4b17f9c36" />
+</div>
+
 **Core**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
