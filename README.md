@@ -2,16 +2,18 @@
   <img width="1584" height="396" alt="Jessica - Computer Engineering Student" src="https://github.com/user-attachments/assets/496296eb-3a62-4701-9e5d-a5c105ceb079" />
 </div>
 
-<div align="center">
+<br><br>
+<h3 align="center">
   
+I enjoy working across the full stack, from designing relational data models to building responsive interfaces. I'm particularly interested in **algorithms** and **artificial intelligence**, and how they can be applied to solve real-world problems.
 
-I enjoy working across the full stack, from designing relational data models to building responsive, user-friendly interfaces. I'm particularly interested in **algorithms** and **artificial intelligence**, and how they can be applied to solve real-world problems.
+</h3>
 
-</div>
-
-
+<br><br>
 <div align="center">
-  <img width="1584" height="50" alt="Design sem nome (1)" src="https://github.com/user-attachments/assets/2a144984-ed3d-4185-b3ef-26e4b17f9c36" />
+<img width="1584" height="50" alt="Tech Stack" src="https://github.com/user-attachments/assets/3cee435b-e2db-42fc-b060-9db4116532fe" />
+
+
 </div>
 
 **Core**
