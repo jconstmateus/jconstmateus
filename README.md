@@ -108,7 +108,7 @@ An AI-powered study platform combining a flexible academic calendar with intelli
 
 Currently in development:
 - A dedicated Python microservice (FastAPI) to handle AI-powered 
-features — automatic summaries, an AI tutor chatbot, and 
+features: automatic summaries, an AI tutor chatbot, and 
 auto-generated practice tests, communicating with the main backend via REST.
 
  <!-- Contact -->
