@@ -99,17 +99,46 @@ I enjoy working across the full stack, from designing relational data models to 
 
 ### [Study Buddy](https://github.com/jconstmateus/study-buddy)
 
-An AI-powered study platform combining a flexible academic calendar with intelligent tools:
-- JWT-based authentication with secure password handling
-- Relational data model with 8+ interconnected entities
-- REST API built with Spring Boot, using PostgreSQL through Docker
-- React + TypeScript frontend
-- Dockerized development environment
+An AI-powered study platform combining a flexible academic calendar with intelligent study tools:
 
-Currently in development:
-- A dedicated Python microservice (FastAPI) to handle AI-powered 
-features: automatic summaries, an AI tutor chatbot, and 
-auto-generated practice tests, communicating with the main backend via REST.
+- Backend (Java / Spring Boot)
+  - JWT authentication (Spring Security) with BCrypt-hashed passwords
+  - Ownership-based authorization and centralized error handling
+  - REST API on PostgreSQL (Docker), with an 8-entity relational data model
+- AI service (Python / FastAPI, Claude API)
+  - Summaries refined with extra context
+  - Tutor chatbot with persisted conversation history and system prompts
+  - Auto-graded practice quizzes generated with JSON-schema structured outputs
+- Frontend (React + TypeScript)
+  - Calendar dashboard with filters
+  - Markdown/KaTeX rendering of AI answers
+
+Next steps:
+- Upload of study materials (documents and images) to feed summaries and chat
+- Cloud deployment with automated checks (GitHub Actions)
+
+ <!-- EuroLens -->
+<br><br>
+<div align="center">
+  <picture>
+    <img alt="EuroLens logo" src="https://raw.githubusercontent.com/jconstmateus/EuroLens/main/docs/logo_dark_noback.png" width="150" />
+  </picture>
+</div>
+
+### [EuroLens](https://github.com/jconstmateus/EuroLens) 🚧
+
+A data engineering project that collects the full history of euro exchange rates published by the European Central Bank (since 1999), stores it in PostgreSQL and analyses it with SQL:
+
+- Importer (C# / .NET)
+  - Downloads and unzips the official ECB history file
+  - Parses and cleans the CSV (missing values, discontinued currencies)
+  - Converts the data from wide to long format (one row per date and currency)
+
+Next steps:
+- Store rates in PostgreSQL (Docker) with idempotent, incremental daily loads
+- SQL analysis: daily changes, 30-day moving averages, volatility and anomaly detection
+- REST API (ASP.NET Core) and charts
+- Unit tests with xUnit
 
  <!-- Contact -->
 <br><br>
