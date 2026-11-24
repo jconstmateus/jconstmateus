@@ -132,14 +132,15 @@ A data engineering project that collects the full history of euro exchange rates
 - Importer (C# / .NET)
   - Downloads and unzips the official ECB history file
   - Parses and cleans the CSV (missing values, discontinued currencies)
-  - Converts the data from wide to long format (one row per date and currency)
+  - Converts the data from wide to long format (one row per date and currency, 220k+ rows)
+  - Loads it into PostgreSQL (Docker) with parameterized queries and a single transaction
+  - Incremental and idempotent: only new dates are inserted, and re-running never creates duplicates
 
 Next steps:
-- Store rates in PostgreSQL (Docker) with idempotent, incremental daily loads
+- Daily scheduled import
 - SQL analysis: daily changes, 30-day moving averages, volatility and anomaly detection
 - REST API (ASP.NET Core) and charts
 - Unit tests with xUnit
-
  <!-- Contact -->
 <br><br>
 <div align="center">
